@@ -53,8 +53,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3ff0ace5329acb546a5ba6537111504c, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_PlayOnAwake: 1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -62,10 +62,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -74,19 +74,91 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      value: 1.1
+      inSlope: -5001.9995
+      outSlope: -5001.9995
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.00040000002
+      value: 0.5
+      inSlope: -1250.4999
+      outSlope: -1250.4999
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.00080000004
+      value: 0.25
+      inSlope: -312.62497
+      outSlope: -312.62497
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.0016000001
+      value: 0.125
+      inSlope: -78.15624
+      outSlope: -78.15624
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.0032000002
+      value: 0.0625
+      inSlope: -19.53906
+      outSlope: -19.53906
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.0064000003
+      value: 0.03125
+      inSlope: -4.884765
+      outSlope: -4.884765
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.012800001
+      value: 0.015625
+      inSlope: -1.2211913
+      outSlope: -1.2211913
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.025600001
+      value: 0.0078125
+      inSlope: -0.30529782
+      outSlope: -0.30529782
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.051200002
+      value: 0.00390625
+      inSlope: -0.076324455
+      outSlope: -0.076324455
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.102400005
+      value: 0.001953125
+      inSlope: -0.019081114
+      outSlope: -0.019081114
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.20480001
+      value: 0.0009765625
+      inSlope: -0.0047702785
+      outSlope: -0.0047702785
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.40960002
+      value: 0.00048828125
+      inSlope: -0.0011925696
+      outSlope: -0.0011925696
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.81920004
+      value: 0.00024414062
+      inSlope: -0.0002981424
+      outSlope: -0.0002981424
       tangentMode: 0
     - serializedVersion: 2
       time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 0.00020000001
+      inSlope: -0.00020007974
+      outSlope: -0.00020007974
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -115,8 +187,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
-      value: 1
+      time: 0.008426666
+      value: 0.996616
       inSlope: 0
       outSlope: 0
       tangentMode: 0
