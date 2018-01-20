@@ -128,9 +128,10 @@ MonoBehaviour:
   damageOnCollision: 1
   continuousDamage: 0
   continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
+  destroySelfOnImpact: 1
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 1795603220002312, guid: 0f5b131a2b76b9048a69d72fd67f6fba,
+    type: 2}
 --- !u!114 &114246310441425756
 MonoBehaviour:
   m_ObjectHideFlags: 1

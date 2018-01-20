@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 82894453230944904}
   - component: {fileID: 114973269282599214}
   m_Layer: 0
-  m_Name: ExplodePlayerParticle
+  m_Name: ExplodeEnemyParticle 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,9 +52,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c90b837c6f87d8041806982bc403bc88, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b8fb0ccce0411af40b2c1ab94417eaef, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3417,7 +3417,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: f59421ed947b6fc44bea1e36a0fdf1ef, type: 2}
+  - {fileID: 2100000, guid: 775b4f87dc5c1954dae2d6a285fd6eee, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -3450,7 +3450,7 @@ ParticleSystemRenderer:
   m_Pivot: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 4300052, guid: d05d496cb4f43c14e80630addd23652e, type: 3}
+  m_Mesh: {fileID: 4300002, guid: df4796b594b970842b69211cb0078c5d, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
