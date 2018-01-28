@@ -5,16 +5,33 @@ Roller Madness Game for Coursera's Game Development Class Project 2.
 ## Versions
 
 - Unity 2017.1.0p4
-- Build for WebGL
 
-## About
-This is my Roller Madness game.
-~TODO~
+
+## Versions
+
+- Unity 2017.1.0p4
+
 
 ## Controls
-~TODO~
 
-## Screenshots
-~TODO~
+- a, w, s, d keys
 
 
+## Target Build:
+
+- WebGL
+
+
+## Screenshots:
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level1_1.PNG)
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level1_2.PNG)
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level2_1.PNG)
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level2_2.PNG)
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level2_3.PNG)
+
+![alt text](https://github.com/Ladydiana/RollerMadness/blob/master/Screenshots/Screenshot_Level2_4.PNG)
